@@ -6,6 +6,8 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/rodrigodiasnoronha/rn-github?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/rodrigodiasnoronha/rn-github?style=for-the-badge)
 
+<div style="display:flex;justify-content: space-between">
+
 <img 
     src="https://github.com/rodrigodiasnoronha/rn-github/blob/main/screenshots/Screenshot_1.png" alt="exemplo imagem"
 />
@@ -16,6 +18,7 @@
     src="https://github.com/rodrigodiasnoronha/rn-github/blob/main/screenshots/Screenshot_3.png" alt="exemplo imagem"
 />
 
+</div>
 ## 💻 Pré-requisitos
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
