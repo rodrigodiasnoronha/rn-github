@@ -1,13 +1,19 @@
 <!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
 
-![GitHub repo size](https://img.shields.io/github/repo-size/rodrigodiasnoronha/rdn?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/rodrigodiasnoronha/rn-github?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/rodrigodiasnoronha/rdn?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/rodrigodiasnoronha/rdn?style=for-the-badge)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/rodrigodiasnoronha/rdn?style=for-the-badge)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/rodrigodiasnoronha/rdn?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/rodrigodiasnoronha/rn-github?style=for-the-badge)
+![Bitbucket open issues](https://img.shields.io/bitbucket/issues/rodrigodiasnoronha/rn-github?style=for-the-badge)
+![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/rodrigodiasnoronha/rn-github?style=for-the-badge)
 
 <img 
-    src="https://raw.githubusercontent.com/rodrigodiasnoronha/rdn/master/screenshots/screenshot.PNG" alt="exemplo imagem"
+    src="https://github.com/rodrigodiasnoronha/rn-github/blob/main/screenshots/Screenshot_1.png" alt="exemplo imagem"
+/>
+<img 
+    src="https://github.com/rodrigodiasnoronha/rn-github/blob/main/screenshots/Screenshot_2.png" alt="exemplo imagem"
+/>
+<img 
+    src="https://github.com/rodrigodiasnoronha/rn-github/blob/main/screenshots/Screenshot_3.png" alt="exemplo imagem"
 />
 
 ## 💻 Pré-requisitos
@@ -31,10 +37,8 @@ Para instalar o projeto, siga estas etapas:
 - Execute o projeto:
 
 ```bash
-    $ npm run dev
+    $ npm start
 ```
-
-- O projeto deve ser executado na em `localhost:3000`
 
 ## 🌈 Contribuidores<br>
 
@@ -53,6 +57,6 @@ Para instalar o projeto, siga estas etapas:
 
 ## ℹ️ Informações do projeto
 
-![GitHub Repo stars](https://img.shields.io/github/stars/rodrigodiasnoronha/rdn?style=for-the-badge)
-![GitHub watchers](https://img.shields.io/github/watchers/rodrigodiasnoronha/rdn?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/rodrigodiasnoronha/rdn?style=for-the-badge)
+![GitHub Repo stars](https://img.shields.io/github/stars/rodrigodiasnoronha/rn-github?style=for-the-badge)
+![GitHub watchers](https://img.shields.io/github/watchers/rodrigodiasnoronha/rn-github?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/rodrigodiasnoronha/rn-github?style=for-the-badge)
