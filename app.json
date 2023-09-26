@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "projeto-dev-mobile",
-    "slug": "projeto-dev-mobile",
+    "name": "rdn-rngithub",
+    "slug": "rdn-rngithub",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/playstore.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#EC407A"
     },
     "updates": {
       "fallbackToCacheTimeout": 0

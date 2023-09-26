@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 
-import { View, Keyboard } from "react-native";
-import { TextInput, Button, Snackbar } from "react-native-paper";
-import { getUsuarioGithub } from "../../services/githubApi";
 import { NavigationProp } from "@react-navigation/native";
+import { Keyboard, KeyboardAvoidingView, Platform } from "react-native";
+import { Button, Snackbar, TextInput } from "react-native-paper";
+import { getUsuarioGithub } from "../../services/githubApi";
 import { styles } from "./styles";
 
 type HomeProps = {
@@ -64,13 +64,18 @@ class Home extends Component<HomeProps, HomeState> {
     const { username, loadingPesquisa, erro } = this.state;
 
     return (
-      <View style={styles.container}>
+      <KeyboardAvoidingView
+        behavior={Platform.OS === "ios" ? "padding" : "height"}
+        style={styles.container}
+      >
         <TextInput
           mode="outlined"
           label="Usuário do Github"
           value={username}
           onChangeText={this.onUsernameChange}
-          autoComplete
+          autoComplete="off"
+          autoCorrect={false}
+          autoCapitalize={"none"}
         />
 
         <Button
@@ -96,9 +101,10 @@ class Home extends Component<HomeProps, HomeState> {
         </Snackbar>
 
         {/* {erro && <Paragraph>{erro}</Paragraph>} */}
-      </View>
+      </KeyboardAvoidingView>
     );
   }
 }
 
 export { Home };
+
