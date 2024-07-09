@@ -5,13 +5,13 @@ import { theme } from "./src/theme";
 import { Routes } from "./src/routes";
 
 export default function App() {
-  return (
-    <SafeAreaProvider>
-      <SafeAreaView style={{ flex: 1}} edges={["bottom"]}>
-      <PaperProvider theme={theme}>
-        <Routes />
-      </PaperProvider>
-      </SafeAreaView>
-    </SafeAreaProvider>
-  );
+    return (
+        <SafeAreaProvider>
+            <SafeAreaView style={{ flex: 1 }} edges={["bottom"]}>
+                <PaperProvider theme={theme}>
+                    <Routes />
+                </PaperProvider>
+            </SafeAreaView>
+        </SafeAreaProvider>
+    );
 }

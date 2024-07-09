@@ -1,14 +1,14 @@
 import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: "center",
-    backgroundColor: "#fff",
-    paddingHorizontal: 15,
-  },
+    container: {
+        flex: 1,
+        justifyContent: "center",
+        backgroundColor: "#fff",
+        paddingHorizontal: 15,
+    },
 
-  button: {
-    marginTop: 15,
-  },
+    button: {
+        marginTop: 15,
+    },
 });

@@ -1,13 +1,13 @@
 import axios from "axios";
 
 const githubApi = axios.create({
-  baseURL: "https://api.github.com/",
+    baseURL: "https://api.github.com/",
 });
 
 export const getUsuarioGithub = (username: string) => {
-  return githubApi.get(`/users/${username}`);
+    return githubApi.get(`/users/${username}`);
 };
 
 export const getRepositoriosUsuario = (username: string) => {
-  return githubApi.get(`/users/${username}/repos`);
+    return githubApi.get(`/users/${username}/repos`);
 };

@@ -25,19 +25,19 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
 <!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
 
-- Você instalou a versão mais recente de `Node`
+-   Você instalou a versão mais recente de `Node`
 
 ## 🚀 Instalando
 
 Para instalar o projeto, siga estas etapas:
 
-- Instale as dependências do projeto:
+-   Instale as dependências do projeto:
 
 ```bash
     $ npm i
 ```
 
-- Execute o projeto:
+-   Execute o projeto:
 
 ```bash
     $ npm start

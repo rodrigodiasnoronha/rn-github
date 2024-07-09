@@ -1,38 +1,36 @@
 {
-  "expo": {
-    "name": "RN GITHUB",
-    "slug": "rdn-rngithub",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/playstore.png",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#EC407A"
-    },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      },
-      "package": "com.rdn.br.rngithub"
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    },
-    "extra": {
-      "eas": {
-        "projectId": "d2834dd0-7bf2-4359-b681-9e088ce1402f"
-      }
+    "expo": {
+        "name": "RN GITHUB",
+        "slug": "rdn-rngithub",
+        "version": "1.0.2",
+        "orientation": "portrait",
+        "icon": "./assets/playstore.png",
+        "splash": {
+            "image": "./assets/splash.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#EC407A"
+        },
+        "updates": {
+            "fallbackToCacheTimeout": 0
+        },
+        "assetBundlePatterns": ["**/*"],
+        "ios": {
+            "supportsTablet": true
+        },
+        "android": {
+            "adaptiveIcon": {
+                "foregroundImage": "./assets/adaptive-icon.png",
+                "backgroundColor": "#FFFFFF"
+            },
+            "package": "com.rdn.br.rngithub"
+        },
+        "web": {
+            "favicon": "./assets/favicon.png"
+        },
+        "extra": {
+            "eas": {
+                "projectId": "d2834dd0-7bf2-4359-b681-9e088ce1402f"
+            }
+        }
     }
-  }
 }
